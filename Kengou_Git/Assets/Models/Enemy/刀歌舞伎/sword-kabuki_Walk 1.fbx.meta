@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 0bf5db13a1cf27d47b6b7babedf61a3c
+timeCreated: 1435543956
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bone
+    100002: bone1
+    100004: bone10
+    100006: bone11
+    100008: bone12
+    100010: bone13
+    100012: bone15
+    100014: bone16
+    100016: bone17
+    100018: bone18
+    100020: bone19
+    100022: bone2
+    100024: bone20
+    100026: bone21
+    100028: bone22
+    100030: bone23
+    100032: bone24
+    100034: bone25
+    100036: bone26
+    100038: bone27
+    100040: bone28
+    100042: bone29
+    100044: bone3
+    100046: bone30
+    100048: bone31
+    100050: bone32
+    100052: bone33
+    100054: bone34
+    100056: bone35
+    100058: bone36
+    100060: bone37
+    100062: bone4
+    100064: bone43
+    100066: bone44
+    100068: bone45
+    100070: bone46
+    100072: bone5
+    100074: bone6
+    100076: bone7
+    100078: bone8
+    100080: bone9
+    100082: boons
+    100084: cylinder5
+    100086: eff
+    100088: eff1
+    100090: eff10
+    100092: eff11
+    100094: eff12
+    100096: eff13
+    100098: eff14
+    100100: eff15
+    100102: eff16
+    100104: eff17
+    100106: eff18
+    100108: eff2
+    100110: eff22
+    100112: eff23
+    100114: eff3
+    100116: eff4
+    100118: eff5
+    100120: eff6
+    100122: eff8
+    100124: eff9
+    100126: null
+    100128: null1
+    100130: null2
+    100132: null3
+    100134: null4
+    100136: null5
+    100138: null6
+    100140: null7
+    100142: null8
+    100144: polymsh
+    100146: polymsh_detached
+    100148: root
+    100150: root1
+    100152: root10
+    100154: root11
+    100156: root12
+    100158: root13
+    100160: root14
+    100162: root15
+    100164: root16
+    100166: root17
+    100168: root18
+    100170: root2
+    100172: root22
+    100174: root23
+    100176: root3
+    100178: root4
+    100180: root5
+    100182: root6
+    100184: root8
+    100186: root9
+    100188: sotai23:Camera_Root
+    100190: sotai23:sotai23
+    100192: sotai23:sphere6
+    100194: sotai23:zako_A0:asi
+    100196: sotai23:zako_A0:Atama_
+    100198: sotai23:zako_A0:Atama_1
+    100200: sotai23:zako_A0:cylinder
+    100202: sotai23:zako_A0:cylinder1
+    100204: sotai23:zako_A0:cylinder2
+    100206: sotai23:zako_A0:cylinder3
+    100208: sotai23:zako_A0:cylinder4
+    100210: sotai23:zako_A0:cylinder5
+    100212: sotai23:zako_A0:cylinder6
+    100214: sotai23:zako_A0:cylinder7
+    100216: sotai23:zako_A0:cylinder8
+    100218: sotai23:zako_A0:cylinder9
+    100220: sotai23:zako_A0:Face_A
+    100222: sotai23:zako_A0:grid
+    100224: sotai23:zako_A0:grid2
+    100226: sotai23:zako_A0:Jouhannsinn
+    100228: sotai23:zako_A0:Kahannsinn
+    100230: sotai23:zako_A0:Kamisimo1
+    100232: sotai23:zako_A0:Kamisimo2
+    100234: sotai23:zako_A0:Kamisimo3
+    100236: sotai23:zako_A0:Obi
+    100238: sotai23:zako_A0:polymsh_detached3
+    100240: sotai23:zako_A0:sphere
+    100242: sotai23:zako_A0:sphere2
+    100244: sotai23:zako_A0:sphere3
+    100246: sotai23:zako_A0:sphere5
+    100248: sotai23:zako_A0:zako_A0
+    100250: //RootNode
+    400000: bone
+    400002: bone1
+    400004: bone10
+    400006: bone11
+    400008: bone12
+    400010: bone13
+    400012: bone15
+    400014: bone16
+    400016: bone17
+    400018: bone18
+    400020: bone19
+    400022: bone2
+    400024: bone20
+    400026: bone21
+    400028: bone22
+    400030: bone23
+    400032: bone24
+    400034: bone25
+    400036: bone26
+    400038: bone27
+    400040: bone28
+    400042: bone29
+    400044: bone3
+    400046: bone30
+    400048: bone31
+    400050: bone32
+    400052: bone33
+    400054: bone34
+    400056: bone35
+    400058: bone36
+    400060: bone37
+    400062: bone4
+    400064: bone43
+    400066: bone44
+    400068: bone45
+    400070: bone46
+    400072: bone5
+    400074: bone6
+    400076: bone7
+    400078: bone8
+    400080: bone9
+    400082: boons
+    400084: cylinder5
+    400086: eff
+    400088: eff1
+    400090: eff10
+    400092: eff11
+    400094: eff12
+    400096: eff13
+    400098: eff14
+    400100: eff15
+    400102: eff16
+    400104: eff17
+    400106: eff18
+    400108: eff2
+    400110: eff22
+    400112: eff23
+    400114: eff3
+    400116: eff4
+    400118: eff5
+    400120: eff6
+    400122: eff8
+    400124: eff9
+    400126: null
+    400128: null1
+    400130: null2
+    400132: null3
+    400134: null4
+    400136: null5
+    400138: null6
+    400140: null7
+    400142: null8
+    400144: polymsh
+    400146: polymsh_detached
+    400148: root
+    400150: root1
+    400152: root10
+    400154: root11
+    400156: root12
+    400158: root13
+    400160: root14
+    400162: root15
+    400164: root16
+    400166: root17
+    400168: root18
+    400170: root2
+    400172: root22
+    400174: root23
+    400176: root3
+    400178: root4
+    400180: root5
+    400182: root6
+    400184: root8
+    400186: root9
+    400188: sotai23:Camera_Root
+    400190: sotai23:sotai23
+    400192: sotai23:sphere6
+    400194: sotai23:zako_A0:asi
+    400196: sotai23:zako_A0:Atama_
+    400198: sotai23:zako_A0:Atama_1
+    400200: sotai23:zako_A0:cylinder
+    400202: sotai23:zako_A0:cylinder1
+    400204: sotai23:zako_A0:cylinder2
+    400206: sotai23:zako_A0:cylinder3
+    400208: sotai23:zako_A0:cylinder4
+    400210: sotai23:zako_A0:cylinder5
+    400212: sotai23:zako_A0:cylinder6
+    400214: sotai23:zako_A0:cylinder7
+    400216: sotai23:zako_A0:cylinder8
+    400218: sotai23:zako_A0:cylinder9
+    400220: sotai23:zako_A0:Face_A
+    400222: sotai23:zako_A0:grid
+    400224: sotai23:zako_A0:grid2
+    400226: sotai23:zako_A0:Jouhannsinn
+    400228: sotai23:zako_A0:Kahannsinn
+    400230: sotai23:zako_A0:Kamisimo1
+    400232: sotai23:zako_A0:Kamisimo2
+    400234: sotai23:zako_A0:Kamisimo3
+    400236: sotai23:zako_A0:Obi
+    400238: sotai23:zako_A0:polymsh_detached3
+    400240: sotai23:zako_A0:sphere
+    400242: sotai23:zako_A0:sphere2
+    400244: sotai23:zako_A0:sphere3
+    400246: sotai23:zako_A0:sphere5
+    400248: sotai23:zako_A0:zako_A0
+    400250: //RootNode
+    2300000: cylinder5
+    3300000: cylinder5
+    4300000: sotai23:zako_A0:Jouhannsinn
+    4300002: sotai23:zako_A0:asi
+    4300004: sotai23:zako_A0:Kahannsinn
+    4300006: sotai23:zako_A0:Obi
+    4300008: sotai23:zako_A0:cylinder
+    4300010: sotai23:zako_A0:Face_A
+    4300012: sotai23:zako_A0:Atama_1
+    4300014: sotai23:zako_A0:sphere
+    4300016: sotai23:zako_A0:grid
+    4300018: sotai23:zako_A0:Atama_
+    4300020: sotai23:zako_A0:cylinder1
+    4300022: sotai23:zako_A0:cylinder4
+    4300024: sotai23:zako_A0:cylinder3
+    4300026: sotai23:zako_A0:cylinder2
+    4300028: sotai23:zako_A0:cylinder5
+    4300030: sotai23:zako_A0:sphere3
+    4300032: sotai23:zako_A0:sphere2
+    4300034: sotai23:zako_A0:Kamisimo2
+    4300036: sotai23:zako_A0:grid2
+    4300038: sotai23:zako_A0:sphere5
+    4300040: sotai23:zako_A0:polymsh_detached3
+    4300042: sotai23:zako_A0:cylinder6
+    4300044: sotai23:zako_A0:cylinder7
+    4300046: sotai23:zako_A0:cylinder8
+    4300048: sotai23:zako_A0:cylinder9
+    4300050: sotai23:zako_A0:Kamisimo1
+    4300052: sotai23:zako_A0:Kamisimo3
+    4300054: sotai23:sphere6
+    4300056: polymsh_detached
+    4300058: cylinder5
+    4300060: polymsh
+    7400000: Walk2
+    9500000: //RootNode
+    13700000: polymsh
+    13700002: polymsh_detached
+    13700004: sotai23:sphere6
+    13700006: sotai23:zako_A0:asi
+    13700008: sotai23:zako_A0:Atama_
+    13700010: sotai23:zako_A0:Atama_1
+    13700012: sotai23:zako_A0:cylinder
+    13700014: sotai23:zako_A0:cylinder1
+    13700016: sotai23:zako_A0:cylinder2
+    13700018: sotai23:zako_A0:cylinder3
+    13700020: sotai23:zako_A0:cylinder4
+    13700022: sotai23:zako_A0:cylinder5
+    13700024: sotai23:zako_A0:cylinder6
+    13700026: sotai23:zako_A0:cylinder7
+    13700028: sotai23:zako_A0:cylinder8
+    13700030: sotai23:zako_A0:cylinder9
+    13700032: sotai23:zako_A0:Face_A
+    13700034: sotai23:zako_A0:grid
+    13700036: sotai23:zako_A0:grid2
+    13700038: sotai23:zako_A0:Jouhannsinn
+    13700040: sotai23:zako_A0:Kahannsinn
+    13700042: sotai23:zako_A0:Kamisimo1
+    13700044: sotai23:zako_A0:Kamisimo2
+    13700046: sotai23:zako_A0:Kamisimo3
+    13700048: sotai23:zako_A0:Obi
+    13700050: sotai23:zako_A0:polymsh_detached3
+    13700052: sotai23:zako_A0:sphere
+    13700054: sotai23:zako_A0:sphere2
+    13700056: sotai23:zako_A0:sphere3
+    13700058: sotai23:zako_A0:sphere5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk2
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boons
+        weight: 1
+      - path: boons/null
+        weight: 1
+      - path: boons/null/root
+        weight: 1
+      - path: boons/null/root/bone
+        weight: 1
+      - path: boons/null/root/bone/bone1
+        weight: 1
+      - path: boons/null/root/bone/bone1/eff
+        weight: 1
+      - path: boons/null/root/bone/bone1/eff/root1
+        weight: 1
+      - path: boons/null/root/bone/bone1/eff/root1/bone2
+        weight: 1
+      - path: boons/null/root/bone/bone1/eff/root1/bone2/bone3
+        weight: 1
+      - path: boons/null/root/bone/bone1/eff/root1/bone2/bone3/eff1
+        weight: 1
+      - path: boons/null/root2
+        weight: 1
+      - path: boons/null/root2/bone4
+        weight: 1
+      - path: boons/null/root2/bone4/bone5
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/eff2
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/eff2/root3
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/eff2/root3/bone7
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8/eff3
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/eff9
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root22
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root22/bone43
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root22/bone43/bone44
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root22/bone43/bone44/eff22
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root23
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root23/bone45
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root23/bone45/bone46
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/root23/bone45/bone46/eff23
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root14
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root14/bone23
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root6/bone13/eff6/root14/bone23/eff14
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21/eff12
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root13
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root13/bone22
+        weight: 1
+      - path: boons/null/root2/bone4/bone5/bone6/root10/bone18/eff10/root13/bone22/eff13
+        weight: 1
+      - path: boons/null/root4
+        weight: 1
+      - path: boons/null/root4/bone9
+        weight: 1
+      - path: boons/null/root4/bone9/bone10
+        weight: 1
+      - path: boons/null/root4/bone9/bone10/eff4
+        weight: 1
+      - path: boons/null/root4/bone9/bone10/eff4/root5
+        weight: 1
+      - path: boons/null/root4/bone9/bone10/eff4/root5/bone11
+        weight: 1
+      - path: boons/null/root4/bone9/bone10/eff4/root5/bone11/bone12
+        weight: 1
+      - path: boons/null/root4/bone9/bone10/eff4/root5/bone11/bone12/eff5
+        weight: 1
+      - path: boons/null/root15
+        weight: 1
+      - path: boons/null/root15/bone24
+        weight: 1
+      - path: boons/null/root15/bone24/bone25
+        weight: 1
+      - path: boons/null/root15/bone24/bone25/bone26
+        weight: 1
+      - path: boons/null/root15/bone24/bone25/bone26/bone27
+        weight: 1
+      - path: boons/null/root15/bone24/bone25/bone26/bone27/bone28
+        weight: 1
+      - path: boons/null/root15/bone24/bone25/bone26/bone27/bone28/eff15
+        weight: 1
+      - path: boons/null/root16
+        weight: 1
+      - path: boons/null/root16/bone29
+        weight: 1
+      - path: boons/null/root16/bone29/bone30
+        weight: 1
+      - path: boons/null/root16/bone29/bone30/bone31
+        weight: 1
+      - path: boons/null/root16/bone29/bone30/bone31/eff16
+        weight: 1
+      - path: boons/null/root17
+        weight: 1
+      - path: boons/null/root17/bone32
+        weight: 1
+      - path: boons/null/root17/bone32/bone33
+        weight: 1
+      - path: boons/null/root17/bone32/bone33/bone34
+        weight: 1
+      - path: boons/null/root17/bone32/bone33/bone34/eff17
+        weight: 1
+      - path: boons/null/root18
+        weight: 1
+      - path: boons/null/root18/bone35
+        weight: 1
+      - path: boons/null/root18/bone35/bone36
+        weight: 1
+      - path: boons/null/root18/bone35/bone36/bone37
+        weight: 1
+      - path: boons/null/root18/bone35/bone36/bone37/eff18
+        weight: 1
+      - path: boons/null1
+        weight: 1
+      - path: boons/null2
+        weight: 1
+      - path: boons/null3
+        weight: 1
+      - path: boons/null4
+        weight: 1
+      - path: boons/null5
+        weight: 1
+      - path: boons/null6
+        weight: 1
+      - path: boons/null7
+        weight: 1
+      - path: boons/null8
+        weight: 1
+      - path: cylinder5
+        weight: 1
+      - path: polymsh
+        weight: 1
+      - path: polymsh_detached
+        weight: 1
+      - path: sotai23:sotai23
+        weight: 1
+      - path: sotai23:sotai23/sotai23:Camera_Root
+        weight: 1
+      - path: sotai23:sotai23/sotai23:sphere6
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:asi
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Atama_
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Atama_1
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder1
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder2
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder3
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder4
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder5
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder6
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder7
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder8
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:cylinder9
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Face_A
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:grid
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:grid2
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Jouhannsinn
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Kahannsinn
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Kamisimo1
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Kamisimo2
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Kamisimo3
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:Obi
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:polymsh_detached3
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:sphere
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:sphere2
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:sphere3
+        weight: 1
+      - path: sotai23:sotai23/sotai23:zako_A0:zako_A0/sotai23:zako_A0:sphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

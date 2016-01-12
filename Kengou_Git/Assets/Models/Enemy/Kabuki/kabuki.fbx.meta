@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 1acb4810540370247a3f443393c87ff2
+timeCreated: 1430290588
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: asi
+    100002: Atama_
+    100004: Atama_1
+    100006: bone
+    100008: bone1
+    100010: bone10
+    100012: bone11
+    100014: bone12
+    100016: bone13
+    100018: bone15
+    100020: bone16
+    100022: bone17
+    100024: bone18
+    100026: bone19
+    100028: bone2
+    100030: bone20
+    100032: bone21
+    100034: bone22
+    100036: bone23
+    100038: bone24
+    100040: bone25
+    100042: bone26
+    100044: bone27
+    100046: bone28
+    100048: bone29
+    100050: bone3
+    100052: bone30
+    100054: bone31
+    100056: bone32
+    100058: bone33
+    100060: bone34
+    100062: bone35
+    100064: bone36
+    100066: bone37
+    100068: bone4
+    100070: bone5
+    100072: bone6
+    100074: bone7
+    100076: bone8
+    100078: bone9
+    100080: cylinder
+    100082: cylinder1
+    100084: cylinder2
+    100086: cylinder3
+    100088: cylinder4
+    100090: cylinder5
+    100092: cylinder6
+    100094: cylinder7
+    100096: cylinder8
+    100098: cylinder9
+    100100: eff
+    100102: eff1
+    100104: eff10
+    100106: eff11
+    100108: eff12
+    100110: eff13
+    100112: eff14
+    100114: eff15
+    100116: eff16
+    100118: eff17
+    100120: eff18
+    100122: eff2
+    100124: eff3
+    100126: eff4
+    100128: eff5
+    100130: eff6
+    100132: eff8
+    100134: eff9
+    100136: Face_A
+    100138: grid
+    100140: grid2
+    100142: Jouhannsinn
+    100144: //RootNode
+    100146: Kahannsinn
+    100148: Kamisimo1
+    100150: Kamisimo2
+    100152: null
+    100154: null1
+    100156: null2
+    100158: null3
+    100160: null4
+    100162: null5
+    100164: null6
+    100166: null7
+    100168: null8
+    100170: Obi
+    100172: polymsh_detached
+    100174: polymsh_detached3
+    100176: root
+    100178: root1
+    100180: root10
+    100182: root11
+    100184: root12
+    100186: root13
+    100188: root14
+    100190: root15
+    100192: root16
+    100194: root17
+    100196: root18
+    100198: root2
+    100200: root3
+    100202: root4
+    100204: root5
+    100206: root6
+    100208: root8
+    100210: root9
+    100212: sphere
+    100214: sphere2
+    100216: sphere3
+    100218: sphere5
+    100220: sphere6
+    400000: asi
+    400002: Atama_
+    400004: Atama_1
+    400006: bone
+    400008: bone1
+    400010: bone10
+    400012: bone11
+    400014: bone12
+    400016: bone13
+    400018: bone15
+    400020: bone16
+    400022: bone17
+    400024: bone18
+    400026: bone19
+    400028: bone2
+    400030: bone20
+    400032: bone21
+    400034: bone22
+    400036: bone23
+    400038: bone24
+    400040: bone25
+    400042: bone26
+    400044: bone27
+    400046: bone28
+    400048: bone29
+    400050: bone3
+    400052: bone30
+    400054: bone31
+    400056: bone32
+    400058: bone33
+    400060: bone34
+    400062: bone35
+    400064: bone36
+    400066: bone37
+    400068: bone4
+    400070: bone5
+    400072: bone6
+    400074: bone7
+    400076: bone8
+    400078: bone9
+    400080: cylinder
+    400082: cylinder1
+    400084: cylinder2
+    400086: cylinder3
+    400088: cylinder4
+    400090: cylinder5
+    400092: cylinder6
+    400094: cylinder7
+    400096: cylinder8
+    400098: cylinder9
+    400100: eff
+    400102: eff1
+    400104: eff10
+    400106: eff11
+    400108: eff12
+    400110: eff13
+    400112: eff14
+    400114: eff15
+    400116: eff16
+    400118: eff17
+    400120: eff18
+    400122: eff2
+    400124: eff3
+    400126: eff4
+    400128: eff5
+    400130: eff6
+    400132: eff8
+    400134: eff9
+    400136: Face_A
+    400138: grid
+    400140: grid2
+    400142: Jouhannsinn
+    400144: //RootNode
+    400146: Kahannsinn
+    400148: Kamisimo1
+    400150: Kamisimo2
+    400152: null
+    400154: null1
+    400156: null2
+    400158: null3
+    400160: null4
+    400162: null5
+    400164: null6
+    400166: null7
+    400168: null8
+    400170: Obi
+    400172: polymsh_detached
+    400174: polymsh_detached3
+    400176: root
+    400178: root1
+    400180: root10
+    400182: root11
+    400184: root12
+    400186: root13
+    400188: root14
+    400190: root15
+    400192: root16
+    400194: root17
+    400196: root18
+    400198: root2
+    400200: root3
+    400202: root4
+    400204: root5
+    400206: root6
+    400208: root8
+    400210: root9
+    400212: sphere
+    400214: sphere2
+    400216: sphere3
+    400218: sphere5
+    400220: sphere6
+    4300000: Jouhannsinn
+    4300002: asi
+    4300004: Kahannsinn
+    4300006: Obi
+    4300008: cylinder
+    4300010: Face_A
+    4300012: Atama_1
+    4300014: sphere
+    4300016: grid
+    4300018: Atama_
+    4300020: cylinder1
+    4300022: cylinder4
+    4300024: cylinder3
+    4300026: cylinder2
+    4300028: cylinder5
+    4300030: sphere3
+    4300032: sphere2
+    4300034: Kamisimo2
+    4300036: grid2
+    4300038: sphere5
+    4300040: polymsh_detached3
+    4300042: cylinder6
+    4300044: cylinder7
+    4300046: cylinder8
+    4300048: cylinder9
+    4300050: Kamisimo1
+    4300052: sphere6
+    4300054: polymsh_detached
+    7400000: Wait
+    7400002: Throw
+    7400004: Throw2
+    7400006: Death
+    9500000: //RootNode
+    13700000: asi
+    13700002: Atama_
+    13700004: Atama_1
+    13700006: cylinder
+    13700008: cylinder1
+    13700010: cylinder2
+    13700012: cylinder3
+    13700014: cylinder4
+    13700016: cylinder5
+    13700018: cylinder6
+    13700020: cylinder7
+    13700022: cylinder8
+    13700024: cylinder9
+    13700026: Face_A
+    13700028: grid
+    13700030: grid2
+    13700032: Jouhannsinn
+    13700034: Kahannsinn
+    13700036: Kamisimo1
+    13700038: Kamisimo2
+    13700040: Obi
+    13700042: polymsh_detached
+    13700044: polymsh_detached3
+    13700046: sphere
+    13700048: sphere2
+    13700050: sphere3
+    13700052: sphere5
+    13700054: sphere6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wait
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asi
+        weight: 1
+      - path: Atama_
+        weight: 1
+      - path: Atama_1
+        weight: 1
+      - path: cylinder
+        weight: 1
+      - path: cylinder1
+        weight: 1
+      - path: cylinder2
+        weight: 1
+      - path: cylinder3
+        weight: 1
+      - path: cylinder4
+        weight: 1
+      - path: cylinder5
+        weight: 1
+      - path: cylinder6
+        weight: 1
+      - path: cylinder7
+        weight: 1
+      - path: cylinder8
+        weight: 1
+      - path: cylinder9
+        weight: 1
+      - path: Face_A
+        weight: 1
+      - path: grid
+        weight: 1
+      - path: grid2
+        weight: 1
+      - path: Jouhannsinn
+        weight: 1
+      - path: Kahannsinn
+        weight: 1
+      - path: Kamisimo1
+        weight: 1
+      - path: Kamisimo2
+        weight: 1
+      - path: null
+        weight: 1
+      - path: null/root
+        weight: 1
+      - path: null/root/bone
+        weight: 1
+      - path: null/root/bone/bone1
+        weight: 1
+      - path: null/root/bone/bone1/eff
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3/eff1
+        weight: 1
+      - path: null/root2
+        weight: 1
+      - path: null/root2/bone4
+        weight: 1
+      - path: null/root2/bone4/bone5
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8/eff3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/eff9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23/eff14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21/eff12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22/eff13
+        weight: 1
+      - path: null/root4
+        weight: 1
+      - path: null/root4/bone9
+        weight: 1
+      - path: null/root4/bone9/bone10
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12/eff5
+        weight: 1
+      - path: null/root15
+        weight: 1
+      - path: null/root15/bone24
+        weight: 1
+      - path: null/root15/bone24/bone25
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28/eff15
+        weight: 1
+      - path: null/root16
+        weight: 1
+      - path: null/root16/bone29
+        weight: 1
+      - path: null/root16/bone29/bone30
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31/eff16
+        weight: 1
+      - path: null/root17
+        weight: 1
+      - path: null/root17/bone32
+        weight: 1
+      - path: null/root17/bone32/bone33
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34/eff17
+        weight: 1
+      - path: null/root18
+        weight: 1
+      - path: null/root18/bone35
+        weight: 1
+      - path: null/root18/bone35/bone36
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37/eff18
+        weight: 1
+      - path: null1
+        weight: 1
+      - path: null2
+        weight: 1
+      - path: null3
+        weight: 1
+      - path: null4
+        weight: 1
+      - path: null5
+        weight: 1
+      - path: null6
+        weight: 1
+      - path: null7
+        weight: 1
+      - path: null8
+        weight: 1
+      - path: Obi
+        weight: 1
+      - path: polymsh_detached
+        weight: 1
+      - path: polymsh_detached3
+        weight: 1
+      - path: sphere
+        weight: 1
+      - path: sphere2
+        weight: 1
+      - path: sphere3
+        weight: 1
+      - path: sphere5
+        weight: 1
+      - path: sphere6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Throw
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asi
+        weight: 1
+      - path: Atama_
+        weight: 1
+      - path: Atama_1
+        weight: 1
+      - path: cylinder
+        weight: 1
+      - path: cylinder1
+        weight: 1
+      - path: cylinder2
+        weight: 1
+      - path: cylinder3
+        weight: 1
+      - path: cylinder4
+        weight: 1
+      - path: cylinder5
+        weight: 1
+      - path: cylinder6
+        weight: 1
+      - path: cylinder7
+        weight: 1
+      - path: cylinder8
+        weight: 1
+      - path: cylinder9
+        weight: 1
+      - path: Face_A
+        weight: 1
+      - path: grid
+        weight: 1
+      - path: grid2
+        weight: 1
+      - path: Jouhannsinn
+        weight: 1
+      - path: Kahannsinn
+        weight: 1
+      - path: Kamisimo1
+        weight: 1
+      - path: Kamisimo2
+        weight: 1
+      - path: null
+        weight: 1
+      - path: null/root
+        weight: 1
+      - path: null/root/bone
+        weight: 1
+      - path: null/root/bone/bone1
+        weight: 1
+      - path: null/root/bone/bone1/eff
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3/eff1
+        weight: 1
+      - path: null/root2
+        weight: 1
+      - path: null/root2/bone4
+        weight: 1
+      - path: null/root2/bone4/bone5
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8/eff3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/eff9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23/eff14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21/eff12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22/eff13
+        weight: 1
+      - path: null/root4
+        weight: 1
+      - path: null/root4/bone9
+        weight: 1
+      - path: null/root4/bone9/bone10
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12/eff5
+        weight: 1
+      - path: null/root15
+        weight: 1
+      - path: null/root15/bone24
+        weight: 1
+      - path: null/root15/bone24/bone25
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28/eff15
+        weight: 1
+      - path: null/root16
+        weight: 1
+      - path: null/root16/bone29
+        weight: 1
+      - path: null/root16/bone29/bone30
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31/eff16
+        weight: 1
+      - path: null/root17
+        weight: 1
+      - path: null/root17/bone32
+        weight: 1
+      - path: null/root17/bone32/bone33
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34/eff17
+        weight: 1
+      - path: null/root18
+        weight: 1
+      - path: null/root18/bone35
+        weight: 1
+      - path: null/root18/bone35/bone36
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37/eff18
+        weight: 1
+      - path: null1
+        weight: 1
+      - path: null2
+        weight: 1
+      - path: null3
+        weight: 1
+      - path: null4
+        weight: 1
+      - path: null5
+        weight: 1
+      - path: null6
+        weight: 1
+      - path: null7
+        weight: 1
+      - path: null8
+        weight: 1
+      - path: Obi
+        weight: 1
+      - path: polymsh_detached
+        weight: 1
+      - path: polymsh_detached3
+        weight: 1
+      - path: sphere
+        weight: 1
+      - path: sphere2
+        weight: 1
+      - path: sphere3
+        weight: 1
+      - path: sphere5
+        weight: 1
+      - path: sphere6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Throw2
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asi
+        weight: 1
+      - path: Atama_
+        weight: 1
+      - path: Atama_1
+        weight: 1
+      - path: cylinder
+        weight: 1
+      - path: cylinder1
+        weight: 1
+      - path: cylinder2
+        weight: 1
+      - path: cylinder3
+        weight: 1
+      - path: cylinder4
+        weight: 1
+      - path: cylinder5
+        weight: 1
+      - path: cylinder6
+        weight: 1
+      - path: cylinder7
+        weight: 1
+      - path: cylinder8
+        weight: 1
+      - path: cylinder9
+        weight: 1
+      - path: Face_A
+        weight: 1
+      - path: grid
+        weight: 1
+      - path: grid2
+        weight: 1
+      - path: Jouhannsinn
+        weight: 1
+      - path: Kahannsinn
+        weight: 1
+      - path: Kamisimo1
+        weight: 1
+      - path: Kamisimo2
+        weight: 1
+      - path: null
+        weight: 1
+      - path: null/root
+        weight: 1
+      - path: null/root/bone
+        weight: 1
+      - path: null/root/bone/bone1
+        weight: 1
+      - path: null/root/bone/bone1/eff
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3/eff1
+        weight: 1
+      - path: null/root2
+        weight: 1
+      - path: null/root2/bone4
+        weight: 1
+      - path: null/root2/bone4/bone5
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8/eff3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/eff9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23/eff14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21/eff12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22/eff13
+        weight: 1
+      - path: null/root4
+        weight: 1
+      - path: null/root4/bone9
+        weight: 1
+      - path: null/root4/bone9/bone10
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12/eff5
+        weight: 1
+      - path: null/root15
+        weight: 1
+      - path: null/root15/bone24
+        weight: 1
+      - path: null/root15/bone24/bone25
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28/eff15
+        weight: 1
+      - path: null/root16
+        weight: 1
+      - path: null/root16/bone29
+        weight: 1
+      - path: null/root16/bone29/bone30
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31/eff16
+        weight: 1
+      - path: null/root17
+        weight: 1
+      - path: null/root17/bone32
+        weight: 1
+      - path: null/root17/bone32/bone33
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34/eff17
+        weight: 1
+      - path: null/root18
+        weight: 1
+      - path: null/root18/bone35
+        weight: 1
+      - path: null/root18/bone35/bone36
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37/eff18
+        weight: 1
+      - path: null1
+        weight: 1
+      - path: null2
+        weight: 1
+      - path: null3
+        weight: 1
+      - path: null4
+        weight: 1
+      - path: null5
+        weight: 1
+      - path: null6
+        weight: 1
+      - path: null7
+        weight: 1
+      - path: null8
+        weight: 1
+      - path: Obi
+        weight: 1
+      - path: polymsh_detached
+        weight: 1
+      - path: polymsh_detached3
+        weight: 1
+      - path: sphere
+        weight: 1
+      - path: sphere2
+        weight: 1
+      - path: sphere3
+        weight: 1
+      - path: sphere5
+        weight: 1
+      - path: sphere6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asi
+        weight: 1
+      - path: Atama_
+        weight: 1
+      - path: Atama_1
+        weight: 1
+      - path: cylinder
+        weight: 1
+      - path: cylinder1
+        weight: 1
+      - path: cylinder2
+        weight: 1
+      - path: cylinder3
+        weight: 1
+      - path: cylinder4
+        weight: 1
+      - path: cylinder5
+        weight: 1
+      - path: cylinder6
+        weight: 1
+      - path: cylinder7
+        weight: 1
+      - path: cylinder8
+        weight: 1
+      - path: cylinder9
+        weight: 1
+      - path: Face_A
+        weight: 1
+      - path: grid
+        weight: 1
+      - path: grid2
+        weight: 1
+      - path: Jouhannsinn
+        weight: 1
+      - path: Kahannsinn
+        weight: 1
+      - path: Kamisimo1
+        weight: 1
+      - path: Kamisimo2
+        weight: 1
+      - path: null
+        weight: 1
+      - path: null/root
+        weight: 1
+      - path: null/root/bone
+        weight: 1
+      - path: null/root/bone/bone1
+        weight: 1
+      - path: null/root/bone/bone1/eff
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3
+        weight: 1
+      - path: null/root/bone/bone1/eff/root1/bone2/bone3/eff1
+        weight: 1
+      - path: null/root2
+        weight: 1
+      - path: null/root2/bone4
+        weight: 1
+      - path: null/root2/bone4/bone5
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/eff2/root3/bone7/bone8/eff3
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/bone16/eff8/root9/bone17/eff9
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root6/bone13/eff6/root8/bone15/root14/bone23/eff14
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/bone20/eff11/root12/bone21/eff12
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22
+        weight: 1
+      - path: null/root2/bone4/bone5/bone6/root10/bone18/eff10/root11/bone19/root13/bone22/eff13
+        weight: 1
+      - path: null/root4
+        weight: 1
+      - path: null/root4/bone9
+        weight: 1
+      - path: null/root4/bone9/bone10
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12
+        weight: 1
+      - path: null/root4/bone9/bone10/eff4/root5/bone11/bone12/eff5
+        weight: 1
+      - path: null/root15
+        weight: 1
+      - path: null/root15/bone24
+        weight: 1
+      - path: null/root15/bone24/bone25
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28
+        weight: 1
+      - path: null/root15/bone24/bone25/bone26/bone27/bone28/eff15
+        weight: 1
+      - path: null/root16
+        weight: 1
+      - path: null/root16/bone29
+        weight: 1
+      - path: null/root16/bone29/bone30
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31
+        weight: 1
+      - path: null/root16/bone29/bone30/bone31/eff16
+        weight: 1
+      - path: null/root17
+        weight: 1
+      - path: null/root17/bone32
+        weight: 1
+      - path: null/root17/bone32/bone33
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34
+        weight: 1
+      - path: null/root17/bone32/bone33/bone34/eff17
+        weight: 1
+      - path: null/root18
+        weight: 1
+      - path: null/root18/bone35
+        weight: 1
+      - path: null/root18/bone35/bone36
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37
+        weight: 1
+      - path: null/root18/bone35/bone36/bone37/eff18
+        weight: 1
+      - path: null1
+        weight: 1
+      - path: null2
+        weight: 1
+      - path: null3
+        weight: 1
+      - path: null4
+        weight: 1
+      - path: null5
+        weight: 1
+      - path: null6
+        weight: 1
+      - path: null7
+        weight: 1
+      - path: null8
+        weight: 1
+      - path: Obi
+        weight: 1
+      - path: polymsh_detached
+        weight: 1
+      - path: polymsh_detached3
+        weight: 1
+      - path: sphere
+        weight: 1
+      - path: sphere2
+        weight: 1
+      - path: sphere3
+        weight: 1
+      - path: sphere5
+        weight: 1
+      - path: sphere6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 83a5392d7609e0a41848443bfa35861e
+timeCreated: 1435305939
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - blurShader: {fileID: 4800000, guid: 57e6deea7c2924e22a5138e2b70bb4dc, type: 3}
+  - BlendShader: {fileID: 4800000, guid: fcc1670919aec6b40abfbae3cb0285f3, type: 3}
+  - JudgeTex: {fileID: 2800000, guid: a74746c8c9022024ca4066424e16b00c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

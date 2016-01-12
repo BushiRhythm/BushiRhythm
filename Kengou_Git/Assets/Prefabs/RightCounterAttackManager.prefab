@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 413178}
+  - 114: {fileID: 11454964}
+  m_Layer: 0
+  m_Name: RightCounterAttackManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -714.43158, y: -319.004944, z: 951.000061}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11454964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2554424021ce6f74da1eb448687dc7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zAxisPos:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: -.284023523
+      outSlope: -.284023523
+      tangentMode: 0
+    - time: .242536381
+      value: -.00900446717
+      inSlope: .148369238
+      outSlope: .148369238
+      tangentMode: 0
+    - time: .795218229
+      value: .280595064
+      inSlope: 1.10988569
+      outSlope: 1.10988569
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 7.63706493
+      outSlope: 7.63706493
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  xyAxisPos:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: .709500074
+      outSlope: .709500074
+      tangentMode: 0
+    - time: .222410724
+      value: .0594469421
+      inSlope: .0547306426
+      outSlope: .0547306426
+      tangentMode: 0
+    - time: .882596254
+      value: .0483093262
+      inSlope: -.157354996
+      outSlope: -.157354996
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -.966682673
+      outSlope: -.966682673
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  upPos:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: -.00555366511
+      outSlope: -.00555366511
+      tangentMode: 0
+    - time: .294352919
+      value: .0202810541
+      inSlope: .0346289761
+      outSlope: .0346289761
+      tangentMode: 0
+    - time: .93920362
+      value: .0147600668
+      inSlope: -.122233562
+      outSlope: -.122233562
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -.452083081
+      outSlope: -.452083081
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  enemyLineManager: {fileID: 0}
+  NoTargetCAPoint: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 108958}
+  m_IsPrefabParent: 1
