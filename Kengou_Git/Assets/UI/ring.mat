@@ -91,16 +91,16 @@ Material:
         second: .5
       data:
         first:
-          name: _Parallax
-        second: .0199999996
-      data:
-        first:
           name: _SrcBlend
         second: 1
       data:
         first:
           name: _DstBlend
         second: 0
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
       data:
         first:
           name: _ZWrite
@@ -140,11 +140,11 @@ Material:
       data:
         first:
           name: _CenterValue
-        second: .800000012
+        second: .289999992
       data:
         first:
           name: _WidthValue
-        second: .00999999978
+        second: .0299999993
     m_Colors:
       data:
         first:
@@ -153,7 +153,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0, b: 0, a: .53725493}
+        second: {r: 1, g: 0, b: 0, a: 1}
       data:
         first:
           name: _EmissionColorUI

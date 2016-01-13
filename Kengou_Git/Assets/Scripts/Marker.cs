@@ -24,7 +24,12 @@ public class Marker : MonoBehaviour {
 	[SerializeField]
 	AnimationCurve Alpha;
 
-    public GameObject MarkerCanvas;
+	[SerializeField]
+	GameObject WhiteRing;
+
+	Material WhiteRingMat;
+
+	public GameObject MarkerCanvas;
 
     public MarkerFirePoint markerFirePoint;
 
@@ -179,6 +184,12 @@ public class Marker : MonoBehaviour {
     }
 	// Use this for initialization
 	void Start () {
+		if(WhiteRing != null)
+		{
+			MeshRenderer WhiteRingRenderer = WhiteRing.GetComponent<MeshRenderer>();
+			WhiteRingMat = WhiteRingRenderer.materials[0];
+		}
+
 		NormalJudgeBar = staticScript .bulletResultManager .NormalJudgeBar;
 		SlowJudgeBar = staticScript .bulletResultManager .SlowJudgeBar;
 		_JudgeIndex = NormalJudgeBar .NumJudge;
@@ -238,8 +249,9 @@ public class Marker : MonoBehaviour {
 
 		Color col = staticScript .markerColorManager .GetColor( StartRhythm );
 
-		canvasRenderer .SetColor( new Color( col .r , col .g , col.b , Alpha .Evaluate( Progress ) ) );
-
+		//canvasRenderer .SetColor( new Color( col .r , col .g , col.b , Alpha .Evaluate( Progress ) ) );
+		if(WhiteRingMat!= null)
+			WhiteRingMat.SetColor("Color", new Color(col.r, col.g, col.b, Alpha.Evaluate(Progress)));
         SettingPos();
 		_JudgeIndex = NormalJudgeBar .Judge( _JudgeIndex , _RestTime );
 		_SlowJudgeIndex = SlowJudgeBar .Judge( _SlowJudgeIndex , _RestTime );

@@ -9,6 +9,8 @@
 	} 
 	
 	SubShader {
+		Tags{ "Queue" = "Transparent" "RenderType" = "Transparent" }
+		Blend SrcAlpha OneMinusSrcAlpha
 		Pass {
 			CGPROGRAM
 			#pragma vertex vert
@@ -39,7 +41,7 @@
 			
 			fixed4 frag (v2f i) : COLOR
 			{
-		    	    fixed4 texcol = float4(0.0, 0.0, 0.0, 1.0);
+		    	    fixed4 texcol = float4(0.0, 0.0, 0.0, 0.1);
 					fixed r = tex2D(_JudgeTex, i.uv).r;
 					if(r < _CenterValue + _WidthValue && r > _CenterValue - _WidthValue) {
 		    		texcol = _Color;
