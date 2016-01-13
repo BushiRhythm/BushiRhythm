@@ -73,7 +73,8 @@ public class TitleSystem : MonoBehaviour {
 	AsyncOperation LoadData = new AsyncOperation();
 
 
-	public float MoveSpeed
+
+    public float MoveSpeed
 	{
 		get
 		{
@@ -110,8 +111,9 @@ public class TitleSystem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		LoadData = Application.LoadLevelAdditiveAsync("StageSelect");
-		LoadData .allowSceneActivation = true;
+        LoadData = Application.LoadLevelAdditiveAsync("StageSelect");
+        LoadData.priority = 100;
+        LoadData .allowSceneActivation = true;
 		flickManager .IsFlick();
 #if UNITY_ANDROID
 		float screenRate = (float)480 / Screen .height;
@@ -145,15 +147,22 @@ public class TitleSystem : MonoBehaviour {
 				flickFade .Run();
 				titlerhythm .enabled = true;
 				taiko .Play();
-				state++;
+                state++;
 			}
 			break;
 
 			case MainState.begin:
-			if (Input.GetKeyDown(KeyCode.Mouse0))
+            time += Time.unscaledDeltaTime;
+            if(time > 15.0f)
+            {
+				Handheld.PlayFullScreenMovie("demo.mp4",Color.black,FullScreenMovieControlMode.CancelOnInput,FullScreenMovieScalingMode.AspectFill);
+				Application.LoadLevel("NewTitle");
+            }
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
 			{
 				dynamicRenderTexture .Print();
-
+                time = .0f;
 				state++;
 			}
 			break;

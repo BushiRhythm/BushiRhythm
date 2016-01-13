@@ -3958,7 +3958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDistance: .150000006
-  goalPos: 111
+  goalPos: 107
 --- !u!1 &1803339487
 GameObject:
   m_ObjectHideFlags: 0
