@@ -47,7 +47,8 @@ public class AimingMarker : Marker {
 	public void Setting_DefaultScale()
 	{
 		DefaultScale = transform .localScale;
-	}
+		transform.localScale *= .0f;
+    }
 	
 	// Update is called once per frame
 	void Update () {

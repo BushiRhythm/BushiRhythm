@@ -91,16 +91,16 @@ Material:
         second: .5
       data:
         first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
           name: _SrcBlend
         second: 1
       data:
         first:
           name: _DstBlend
         second: 0
-      data:
-        first:
-          name: _Parallax
-        second: .0199999996
       data:
         first:
           name: _ZWrite
@@ -144,7 +144,7 @@ Material:
       data:
         first:
           name: _WidthValue
-        second: .0299999993
+        second: .0149999997
     m_Colors:
       data:
         first:
