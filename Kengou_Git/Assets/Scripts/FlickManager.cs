@@ -31,7 +31,6 @@ public class FlickManager : MonoBehaviour
     {
         //gameObject取得 
         lig = GameObject.Find("Directional Light");
-
         direction = new Vector3(0, 0, 0);
         distance =  new Vector3(0, 0, 0);
     }

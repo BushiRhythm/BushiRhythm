@@ -434,7 +434,7 @@ public class Sword : MonoBehaviour {
 
             float leng = Mathf.Sqrt(Mathf.Pow(FlickDirection.x, 2) + Mathf.Pow(FlickDirection.y, 2));
             leng /= Screen.width;
-            scale.x *= 1.5f;//locusPositionX * leng * Screen.width;
+            scale.x = Screen.width *0.1f ;//locusPositionX * leng * Screen.width;
             scale.y *= locusPositionY * Screen.height;
             
 
@@ -443,8 +443,8 @@ public class Sword : MonoBehaviour {
             swordEffectAnimationTransform.rotation = LocusQ;
         }
 
-        Vector3 ppp = (FlickStartPosVec3 + FlickEndPosVec3) * 0.5f;
-        //Vector3 ppp = (FlickStartPosVec3);
+       // Vector3 ppp = (FlickStartPosVec3 + FlickEndPosVec3) * 0.5f;
+        Vector3 ppp = (FlickEndPosVec3);
 
         ppp.x -= Screen.width /  2;
         ppp.y -= Screen.height / 2;
