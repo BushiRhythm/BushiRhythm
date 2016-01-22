@@ -82,7 +82,14 @@ public class ResultManager : MonoBehaviour {
     [SerializeField]
     NumberParent DefeatScoreObject;
 
-
+    [SerializeField]
+    bool GokuSwitch = false;
+    [SerializeField]
+    GameObject[] SwitchingUnSet;
+    [SerializeField]
+    GameObject SwitchingMoveObject;
+    [SerializeField]
+    Vector3 SwitchingMoveValue;
 
     [SerializeField]
     NumberParent MinValueObject;
@@ -111,49 +118,54 @@ public class ResultManager : MonoBehaviour {
     void Start()
     {
         Instanced = false;
-        for (int i = 0; i < 4; i++)
-            ValueTextObject[i].SetNum(bulletResultManager.GetCount(i));
-        for (int i = 0; i < 4; i++)
-            ScoreTextObject[i].SetNum(bulletResultManager.GetCount(i) * BulletScore[i]);
-        
-        //ミスカウントの処理
-        ValueTextObject[MissCountID].SetNum(bulletResultManager.GetMissCount());
-        ScoreTextObject[MissCountID].SetNum(bulletResultManager.GetMissCount() * BulletScore[4]);
+        if (bulletResultManager && resultData)
+        {
+            for (int i = 0; i < 4; i++)
+                ValueTextObject[i].SetNum(bulletResultManager.GetCount(i));
+            for (int i = 0; i < 4; i++)
+                ScoreTextObject[i].SetNum(bulletResultManager.GetCount(i) * BulletScore[i]);
 
-        //倒した数の処理
-        DefeatValueObject.SetNum(bulletResultManager.GetEnemyKill());
-        DefeatScoreObject.SetNum(bulletResultManager.GetEnemyKill() * 500);
-        
-        //時間の処理
-        float CT = resultData.ClearTime;
-        float CS = resultData.FinalScore;
-        MinValueObject.SetNum((int)Mathf.Floor(CT / 60f));
-        SecValueObject.SetNum((int)Mathf.Floor(CT % 60f));
-        mScValueObject.SetNum((int)Mathf.Floor(CT % 1 * 10));
+            ValueTextObject[MissCountID].SetNum(bulletResultManager.GetMissCount());
+            ScoreTextObject[MissCountID].SetNum(bulletResultManager.GetMissCount() * BulletScore[4]);
 
-        TimeScoreObject.SetNum(1);
+            DefeatValueObject.SetNum(bulletResultManager.GetEnemyKill());
+            DefeatScoreObject.SetNum(bulletResultManager.GetEnemyKill() * 500);
 
-        int ScoreBoost = ResultTimeSet();
-        TimeScoreObject.SetNum(ScoreBoost % 10);
-        TimeScoreObject2.SetNum((ScoreBoost / 10) + 1);
+            float CT = resultData.ClearTime;
+            float CS = resultData.FinalScore;
+            MinValueObject.SetNum((int)Mathf.Floor(CT / 60f));
+            SecValueObject.SetNum((int)Mathf.Floor(CT % 60f));
+            mScValueObject.SetNum((int)Mathf.Floor(CT % 1 * 10));
+    
+            TimeScoreObject.SetNum(1);
+    
+            int ScoreBoost = ResultTimeSet();
+            TimeScoreObject.SetNum(ScoreBoost % 10);
+            TimeScoreObject2.SetNum((ScoreBoost / 10) + 1);
+    
+            for (int i = 0; i < 3; i++)
+                CS = CS + bulletResultManager.GetCount(i) * BulletScore[i];
+            CS = CS + bulletResultManager.GetEnemyKill() * 500;
+            CS = CS * (1.0f + ((float)ScoreBoost * 0.1f));
+    
+            FullScore.SetNum((int)CS);
+            FullScore2.SetNum((int)CS);
+            optionManager.SetHighScore(optionManager.GetStage(),(int)CS);
+            TotalScore = (int)CS;
+            RRank.SetRank(GetRank(TotalScore));
+        }
 
-
-
-
-        for (int i = 0; i < 3; i++)
-            CS = CS + bulletResultManager.GetCount(i) * BulletScore[i];
-        CS = CS + bulletResultManager.GetEnemyKill() * 500;
-        CS = CS * (1.0f + ((float)ScoreBoost * 0.1f));
-
-        FullScore.SetNum((int)CS);
-        FullScore2.SetNum((int)CS);
-        optionManager.SetHighScore(optionManager.GetStage(),(int)CS);
-        TotalScore = (int)CS;
-        RRank.SetRank(GetRank(TotalScore));
+        if (!GokuSwitch) {
+            for (int i = 0; i < SwitchingUnSet.Length; i++) {
+                SwitchingUnSet[i].SetActive(false);
+            }
+            SwitchingMoveObject.transform.position += SwitchingMoveValue;
+        }
         
 	}
     int GetRank(int CS)
     {
+        if (!SelectMain) return 0;
         switch (SelectMain.selectStage)
         {
             case 0:
@@ -176,6 +188,7 @@ public class ResultManager : MonoBehaviour {
     }
     int ResultTimeSet()
     {
+        if (!SelectMain) return 0;
         float CT = resultData.ClearTime;
         switch (SelectMain.selectStage)
         {
