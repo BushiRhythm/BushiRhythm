@@ -4073,7 +4073,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  marker: {fileID: 179848, guid: 63a170eca444d19479a64a31bb82f17d, type: 2}
+  marker: {fileID: 193758, guid: 97194f6a1e437354282b8c03680f10be, type: 2}
   _animator: {fileID: 9589272}
 --- !u!114 &11479824
 MonoBehaviour:

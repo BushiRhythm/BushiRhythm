@@ -251,7 +251,7 @@ public class Marker : MonoBehaviour {
 
 		//canvasRenderer .SetColor( new Color( col .r , col .g , col.b , Alpha .Evaluate( Progress ) ) );
 		if(WhiteRingMat!= null)
-			WhiteRingMat.SetColor("Color", new Color(col.r, col.g, col.b, Alpha.Evaluate(Progress)));
+			WhiteRingMat.color =  new Color(col.r, col.g, col.b, Alpha.Evaluate(Progress));
         SettingPos();
 		_JudgeIndex = NormalJudgeBar .Judge( _JudgeIndex , _RestTime );
 		_SlowJudgeIndex = SlowJudgeBar .Judge( _SlowJudgeIndex , _RestTime );

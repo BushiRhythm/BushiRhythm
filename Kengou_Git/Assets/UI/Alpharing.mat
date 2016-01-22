@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: WhiteRing
-  m_Shader: {fileID: 4800000, guid: 28c3b20e017b578478876d23f705ffc1, type: 3}
+  m_Name: Alpharing
+  m_Shader: {fileID: 4800000, guid: e0d067d1362495e47828d82aeef11e13, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -140,11 +140,19 @@ Material:
       data:
         first:
           name: _CenterValue
-        second: .500999987
+        second: .300000012
       data:
         first:
           name: _WidthValue
-        second: .0149999997
+        second: .556999981
+      data:
+        first:
+          name: _pow
+        second: 7.28999996
+      data:
+        first:
+          name: _maxAlpha
+        second: .800000012
     m_Colors:
       data:
         first:

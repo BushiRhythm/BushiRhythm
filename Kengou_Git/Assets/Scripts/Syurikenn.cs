@@ -7,6 +7,14 @@ public class Syurikenn : MonoBehaviour {
 
 	float YAngle;
 
+	float RotateSpeedZ;
+
+	float ZAngle;
+
+	float RotateSpeedX;
+
+	float XAngle;
+
 	StaticScript _staticScript;
 
 	StaticScript staticScript
@@ -23,16 +31,25 @@ public class Syurikenn : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		RotateSpeedZ = Random.Range(-100.0f, 100.0f);
+		RotateSpeedX = 30.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 forward = transform .forward;
-		Vector3 Right = Vector3 .Cross( Vector3 .up , forward );
-		Vector3 Up = Vector3 .Cross( forward , Right );
+		YAngle += RotateSpeed * staticScript.rhythmManager.DynamicRhythm.DeltaTime;
+		XAngle += RotateSpeedX * staticScript.rhythmManager.DynamicRhythm.DeltaTime;
+		ZAngle += RotateSpeedZ * staticScript.rhythmManager.DynamicRhythm.DeltaTime;
 
-		Up .Normalize();
-		transform .rotation *= Quaternion .AngleAxis( RotateSpeed  * staticScript.rhythmManager.DynamicRhythm.DeltaTime, Up  );
+		transform.rotation = Quaternion.identity;
+
+		transform.rotation *= Quaternion.AngleAxis(ZAngle, Vector3.forward);
+
+		transform.rotation *= Quaternion.AngleAxis(XAngle, Vector3.right);
+
+		transform.rotation *= Quaternion.AngleAxis(YAngle, Vector3.up);
+
+		//Up .Normalize();
+		//transform .rotation *= Quaternion .AngleAxis( RotateSpeed  * staticScript.rhythmManager.DynamicRhythm.DeltaTime, Up  );
 	}
 }
