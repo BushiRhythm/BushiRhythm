@@ -55,7 +55,7 @@ public class SelectMainMove : MonoBehaviour
     }
     public bool IsStartPush()
     {
-        return FlickVector().x > -2.0f && FlickVector().x < 2.0f;
+        return FlickVector().x > -0.15f && FlickVector().x < 0.15f;
     }
 
     bool FlickComplete = false;
