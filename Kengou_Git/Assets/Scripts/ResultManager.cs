@@ -129,7 +129,7 @@ public class ResultManager : MonoBehaviour {
             ScoreTextObject[MissCountID].SetNum(bulletResultManager.GetMissCount() * BulletScore[4]);
 
             DefeatValueObject.SetNum(bulletResultManager.GetEnemyKill());
-            DefeatScoreObject.SetNum(bulletResultManager.GetEnemyKill() * 500);
+            DefeatScoreObject.SetNum(bulletResultManager.GetEnemyKill() * 2000);
 
             float CT = resultData.ClearTime;
             float CS = resultData.FinalScore;
@@ -145,7 +145,7 @@ public class ResultManager : MonoBehaviour {
     
             for (int i = 0; i < 3; i++)
                 CS = CS + bulletResultManager.GetCount(i) * BulletScore[i];
-            CS = CS + bulletResultManager.GetEnemyKill() * 500;
+            CS = CS + bulletResultManager.GetEnemyKill() * 2000;
             CS = CS * (1.0f + ((float)ScoreBoost * 0.1f));
     
             FullScore.SetNum((int)CS);
