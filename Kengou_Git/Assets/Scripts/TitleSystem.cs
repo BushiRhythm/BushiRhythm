@@ -153,12 +153,13 @@ public class TitleSystem : MonoBehaviour {
 
 			case MainState.begin:
             time += Time.unscaledDeltaTime;
-            if(time > 15.0f)
+#if UNITY_ANDROID
+			if(time > 15.0f)
             {
 				Handheld.PlayFullScreenMovie("demo.mp4",Color.black,FullScreenMovieControlMode.CancelOnInput,FullScreenMovieScalingMode.AspectFill);
 				Application.LoadLevel("NewTitle");
             }
-
+#endif
             if (Input.GetKeyDown(KeyCode.Mouse0))
 			{
 				dynamicRenderTexture .Print();

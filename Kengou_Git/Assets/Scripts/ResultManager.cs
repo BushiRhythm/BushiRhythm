@@ -169,9 +169,9 @@ public class ResultManager : MonoBehaviour {
         switch (SelectMain.selectStage)
         {
             case 0:
-                if (CS > 15000) return 0;
-                else if (CS > 12000) return 1;
-                else if (CS > 4000) return 2;
+                if (CS > 20000) return 0;
+                else if (CS > 14000) return 1;
+                else if (CS > 10000) return 2;
                 break;
             case 1:
                 if (CS > 60000) return 0;
@@ -179,9 +179,9 @@ public class ResultManager : MonoBehaviour {
                 else if (CS > 15000) return 2;
                 break;
             case 2:
-                if (CS > 120000) return 0;
-                else if (CS > 80000) return 1;
-                else if (CS > 30000) return 2;
+                if (CS > 200000) return 0;
+                else if (CS > 150000) return 1;
+                else if (CS > 100000) return 2;
                 break;
         }
         return 3;
@@ -193,19 +193,16 @@ public class ResultManager : MonoBehaviour {
         switch (SelectMain.selectStage)
         {
             case 0:
-                if (CT < 23.0f) return 20;
-                else if (CT < 33.0f) return 15;
-                else if (CT < 73.0f) return 10;
+				if (CT < 30.0f) return 15;
+                else if (CT < 50.0f) return 10;
                 break;
             case 1:
-                if (CT < 37.0f) return 20;
-                else if (CT < 52.0f) return 15;
-                else if (CT < 67.0f) return 10;
+                if (CT < 53.0f) return 15;
+                else if (CT < 70.0f) return 10;
                 break;
             case 2:
-                if (CT < 62.0f) return 20;
-                else if (CT < 77.0f) return 15;
-                else if (CT < 87.0f) return 10;
+                if (CT < 80.0f) return 15;
+                else if (CT < 95.0f) return 10;
                 break;
         }
         return 0;

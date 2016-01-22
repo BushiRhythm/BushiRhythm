@@ -2624,8 +2624,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
   MAXHP: 3
-  Stage1HP: 7
-  Stage2HP: 5
+  Stage1HP: 3
+  Stage2HP: 3
   Stage3HP: 3
   HP: 3
   recovery: .200000003
