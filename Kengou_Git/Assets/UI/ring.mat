@@ -140,11 +140,11 @@ Material:
       data:
         first:
           name: _CenterValue
-        second: .289999992
+        second: .800000012
       data:
         first:
           name: _WidthValue
-        second: .0149999997
+        second: .00999999978
     m_Colors:
       data:
         first:
@@ -153,7 +153,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 0, b: 0, a: .53725493}
       data:
         first:
           name: _EmissionColorUI

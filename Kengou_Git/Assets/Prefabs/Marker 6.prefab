@@ -627,7 +627,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 1
-  WhiteRing: {fileID: 0}
   MarkerCanvas: {fileID: 0}
   markerFirePoint: {fileID: 11481448}
   HavingEnemy: {fileID: 0}
