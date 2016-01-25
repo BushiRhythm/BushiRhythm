@@ -131,8 +131,6 @@ public class GaugeTest : MonoBehaviour {
         }
         else
         {
-            if (!SlowCost)
-            delayimage.fillAmount = img.fillAmount;
 
             if (IsGaugeFull())
             {
@@ -144,7 +142,8 @@ public class GaugeTest : MonoBehaviour {
             NotUsedGoku.SetAlpha(NoUseAlpha);
             SlowCost = false;
         }
-
+        if (!SlowCost)
+            delayimage.fillAmount = img.fillAmount;
         if (gaugelength >= GaugeMax)
             gaugelength = GaugeMax;
 

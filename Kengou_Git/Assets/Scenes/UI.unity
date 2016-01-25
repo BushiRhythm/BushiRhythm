@@ -440,7 +440,7 @@ Prefab:
       objectReference: {fileID: 1654916492}
     - target: {fileID: 11446032, guid: 2675adb1adfd78241a8273a53129b061, type: 2}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11459168, guid: 2675adb1adfd78241a8273a53129b061, type: 2}
@@ -1301,7 +1301,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11482372, guid: 1d0e56bc0c4691e4da0ee04ad88b7205, type: 2}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11470884, guid: 1d0e56bc0c4691e4da0ee04ad88b7205, type: 2}
@@ -1393,6 +1393,11 @@ MonoBehaviour:
   - {fileID: 232210048}
   - {fileID: 434222801}
   - {fileID: 1713883124}
+  - {fileID: 1300109361}
+  - {fileID: 379205055}
+  - {fileID: 1170161548}
+  - {fileID: 1647908146}
+  - {fileID: 1654916492}
   GoalMarker: {fileID: 11438238, guid: bdce5c4bb24376f4dab1e436e7317486, type: 2}
   goalEnemy: {fileID: 11437274, guid: de56b7764ce542841a16cfdbcfe2c962, type: 2}
 --- !u!1 &1170161543
@@ -1413,7 +1418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1170161544
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2674,6 +2679,7 @@ GameObject:
   - 222: {fileID: 2028464034}
   - 114: {fileID: 2028464037}
   - 114: {fileID: 2028464036}
+  - 114: {fileID: 2028464035}
   m_Layer: 5
   m_Name: SLBtnEnt
   m_TagString: Untagged
@@ -2688,6 +2694,54 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2028464033}
+--- !u!114 &2028464035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2028464033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2028464036}
+          m_MethodName: btPush
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2028464036}
+          m_MethodName: btPull
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2028464036
 MonoBehaviour:
   m_ObjectHideFlags: 0
