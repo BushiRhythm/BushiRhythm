@@ -4568,7 +4568,7 @@ MonoBehaviour:
   - {fileID: 235023897}
   DefeatValueObject: {fileID: 1032814584}
   DefeatScoreObject: {fileID: 1745867621}
-  GokuSwitch: 0
+  GokuSwitch: 1
   SwitchingUnSet:
   - {fileID: 1425989245}
   - {fileID: 1356978938}
