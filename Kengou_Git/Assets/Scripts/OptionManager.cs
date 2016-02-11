@@ -7,9 +7,6 @@ public class OptionManager : MonoBehaviour {
     int Stage = 0;
 
     [SerializeField]
-    bool EnableGoku = false;
-
-    [SerializeField]
     int[] Score;
 
     bool LR = false;

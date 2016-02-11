@@ -95,6 +95,10 @@ public class RhythmManager : MonoBehaviour {
 
 	bool ForceStoped = false;
 
+	float FinalBGMTime = .0f;
+
+	float OptimizedTime = .0f;
+
 	float StopTime;
 
 	[SerializeField]
@@ -243,7 +247,6 @@ public class RhythmManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
         Tempo = staticScript.bgmData.Tempo;
 		int OffSetRhythm =(int)( staticScript .bgmData .OffSetTime / OneRyhthmTime );
 		if(!Init)
@@ -255,7 +258,20 @@ public class RhythmManager : MonoBehaviour {
 		}
 		//音楽の位置から固定時間軸拍子の位置を設定
 		float bgmTime = staticScript .bgmData .BGMTime;
-		if(ForceStoped)
+#if UNITY_ANDROID
+		//もし同じ時間ならTime .unscaledDeltaTimeを加える
+		if(FinalBGMTime == bgmTime)
+		{
+			OptimizedTime += Time.unscaledDeltaTime;
+			bgmTime = OptimizedTime;
+        }
+		else
+		{
+			FinalBGMTime = bgmTime;
+			OptimizedTime = FinalBGMTime;
+        }
+#endif
+		if (ForceStoped)
 		{
 			_FixedRhythm .Pos = _FixedRhythm .Pos ;
 		}
