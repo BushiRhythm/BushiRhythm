@@ -258,7 +258,7 @@ public class RhythmManager : MonoBehaviour {
 		}
 		//音楽の位置から固定時間軸拍子の位置を設定
 		float bgmTime = staticScript .bgmData .BGMTime;
-#if UNITY_ANDROID && !UNITY_EDITOR
+#if UNITY_ANDROID
 		//もし同じ時間ならTime .unscaledDeltaTimeを加える
 		if(FinalBGMTime == bgmTime)
 		{
