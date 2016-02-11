@@ -20,7 +20,15 @@ public class BGMData : MonoBehaviour {
 
     float _markerOffSetTime; //発射されてから弾がプレイヤーに到達するまでの実時間
 
+	float _bgmTime;
+
+	float finalBGMTime = .0f;
+
+	float OptimizedTime = .0f;
+
 	float DefaultVolume;
+
+	bool BGMTimeUpdateFlg = false;
 
 	StaticScript _staticScript;
 
@@ -72,29 +80,53 @@ public class BGMData : MonoBehaviour {
     {
 		get
 		{
-
-			if (audioSource)
+			float curBgmTime = .0f;
+			if (!BGMTimeUpdateFlg)
 			{
-				#if UNITY_ANDROID
-				return audioSource.time;
-				#endif
-				return audioSource.time;
-		
-			}
-
-			if (criAtomSource)
-			{
-				long playedSamples;
-				int SamplingRate;
-				if(playback .GetNumPlayedSamples(out  playedSamples ,out SamplingRate ))
+				
+				if (audioSource)
 				{
-					return playedSamples / (float)SamplingRate;
+					#if UNITY_ANDROID
+					curBgmTime = audioSource.time;
+					#endif
+					curBgmTime = audioSource.time;
+		
 				}
-				return criAtomSource .time / 1000.0f;
-			}
+
+				if (criAtomSource)
+				{
+					long playedSamples;
+					int SamplingRate;
+					if(playback .GetNumPlayedSamples(out  playedSamples ,out SamplingRate ))
+					{
+						curBgmTime = playedSamples / (float)SamplingRate;
+					}
+					curBgmTime = criAtomSource .time / 1000.0f;
+				}
+
+#if !UNITY_EDITOR
+				//もし同じ時間ならTime .unscaledDeltaTime * 曲のピッチを加える
+				if (finalBGMTime == curBgmTime)
+				{
+					OptimizedTime += Time.unscaledDeltaTime * audioSource.pitch;
+					curBgmTime = OptimizedTime;
+				}
+				else
+				{
+					finalBGMTime = curBgmTime;
+					OptimizedTime = finalBGMTime;
+				}
+#endif
+				_bgmTime = curBgmTime;
+                BGMTimeUpdateFlg = true;
+            }
+			else
+				curBgmTime = _bgmTime;
 
 
-			return .0f;
+
+
+			return curBgmTime;
 		}
     }
 
@@ -248,6 +280,9 @@ public class BGMData : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		//BGMTimeの更新フラグをリセット
+		BGMTimeUpdateFlg = false;
 
 		if (audioSource)
 			audioSource .pitch = WorkSpeed;
