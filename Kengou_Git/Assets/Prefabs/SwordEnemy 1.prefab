@@ -46,18 +46,28 @@ MonoBehaviour:
   JumpHeight:
     serializedVersion: 2
     m_Curve:
+    - time: -1
+      value: 0
+      inSlope: .335832328
+      outSlope: .335832328
+      tangentMode: 0
     - time: 0
       value: 0
-      inSlope: 1.16192091
+      inSlope: -.334325433
       outSlope: 1.16192091
-      tangentMode: 0
+      tangentMode: 1
     - time: 1.39999998
       value: 0
       inSlope: -.977582991
       outSlope: -.977582991
       tangentMode: 0
+    - time: 1.71466553
+      value: -.274489313
+      inSlope: -.822204053
+      outSlope: -.822204053
+      tangentMode: 0
     m_PreInfinity: 2
-    m_PostInfinity: 1
+    m_PostInfinity: 2
 --- !u!114 &11418350
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -46,8 +46,13 @@ public class SwordEnemy : Enemy {
 		}
 		bool StepState = false;
 
+		bool PreJumpAttackState = false;
+
 		if ((STATE)Step == STATE.JUMPATTACK)
 			StepState = true;
+
+		if ((STATE)Step == STATE.ATTACKMOTION)
+			PreJumpAttackState = true;
 	
 		
 		//驚いている間の処理
@@ -158,6 +163,7 @@ public class SwordEnemy : Enemy {
 							{
 								Step++;
 								staticScript .enemySEManager .SwordAttackSE();
+								JumpStartRhythm = (int)staticScript.rhythmManager.DynamicRhythm.Pos + 1;
 							}
 							break;
 
@@ -176,7 +182,7 @@ public class SwordEnemy : Enemy {
 
 							JumpEndPos = staticScript .enemyLines .GetSwordEnemyGoalPos( id );
 							JumpLen = transform.position - JumpEndPos .position;
-							JumpStartRhythm = (int)staticScript .rhythmManager .DynamicRhythm .Pos;
+							//JumpStartRhythm = (int)staticScript .rhythmManager .DynamicRhythm .Pos;
 							staticScript .enemySEManager .SwordAttackSE2();
 								Step++;
 							//ジャンプ処理
@@ -203,7 +209,10 @@ public class SwordEnemy : Enemy {
 
 			float RetStep = SteppingStep + StepPos;
 			transform .position = staticScript .frontMoverManager .GetPosFromStep( RetStep ) + staticScript .staticSwordEnemyAlg .GetWidth( IsRight ) + staticScript .staticEnemyAlg .AdjustHeight;
-
+			if(PreJumpAttackState)
+			{
+				transform.position = transform.position + Vector3.up * JumpHeight.Evaluate(staticScript.rhythmManager.DynamicRhythm.Pos - JumpStartRhythm);
+            }
 		
 		}
 		if (StepState && !IsDeath)
